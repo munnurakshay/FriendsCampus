@@ -1,0 +1,563 @@
+
+{
+  "CSS_Practice_Test": [
+    {
+      "id": 1,
+      "question": "What does CSS stand for?",
+      "options": [
+        "Cascading Style Sheets",
+        "Creative Style Sheets",
+        "Computer Style Sheets",
+        "Colorful Style Sheets"
+      ],
+      "answer": "Cascading Style Sheets"
+    },
+    {
+      "id": 2,
+      "question": "Which HTML tag is used to link CSS?",
+      "options": [
+        "<style>",
+        "<css>",
+        "<link>",
+        "<script>"
+      ],
+      "answer": "<link>"
+    },
+    {
+      "id": 3,
+      "question": "Which property changes text color?",
+      "options": [
+        "font-color",
+        "text-color",
+        "color",
+        "background-color"
+      ],
+      "answer": "color"
+    },
+    {
+      "id": 4,
+      "question": "Which property changes background color?",
+      "options": [
+        "color",
+        "background-color",
+        "bgcolor",
+        "background-style"
+      ],
+      "answer": "background-color"
+    },
+    {
+      "id": 5,
+      "question": "Which selector selects an element with id='header'?",
+      "options": [
+        ".header",
+        "#header",
+        "header",
+        "*header"
+      ],
+      "answer": "#header"
+    },
+    {
+      "id": 6,
+      "question": "Which selector selects all elements?",
+      "options": [
+        "*",
+        "#",
+        ".",
+        "all"
+      ],
+      "answer": "*"
+    },
+    {
+      "id": 7,
+      "question": "Which property controls text size?",
+      "options": [
+        "text-size",
+        "font-size",
+        "size",
+        "font-style"
+      ],
+      "answer": "font-size"
+    },
+    {
+      "id": 8,
+      "question": "Which property makes text bold?",
+      "options": [
+        "text-bold",
+        "font-weight",
+        "font-bold",
+        "weight"
+      ],
+      "answer": "font-weight"
+    },
+    {
+      "id": 9,
+      "question": "Which property aligns text to center?",
+      "options": [
+        "text-center",
+        "align",
+        "text-align",
+        "center-text"
+      ],
+      "answer": "text-align"
+    },
+    {
+      "id": 10,
+      "question": "Which unit is relative to root font size?",
+      "options": [
+        "px",
+        "em",
+        "rem",
+        "%"
+      ],
+      "answer": "rem"
+    },
+
+    {
+      "id": 11,
+      "question": "Which property adds space inside border?",
+      "options": [
+        "margin",
+        "padding",
+        "border",
+        "spacing"
+      ],
+      "answer": "padding"
+    },
+    {
+      "id": 12,
+      "question": "Which property adds space outside border?",
+      "options": [
+        "padding",
+        "margin",
+        "border",
+        "gap"
+      ],
+      "answer": "margin"
+    },
+    {
+      "id": 13,
+      "question": "Which property defines border?",
+      "options": [
+        "border",
+        "line",
+        "outline",
+        "frame"
+      ],
+      "answer": "border"
+    },
+    {
+      "id": 14,
+      "question": "Which property controls element width?",
+      "options": [
+        "height",
+        "width",
+        "size",
+        "length"
+      ],
+      "answer": "width"
+    },
+    {
+      "id": 15,
+      "question": "Which property controls element height?",
+      "options": [
+        "height",
+        "width",
+        "size",
+        "length"
+      ],
+      "answer": "height"
+    },
+
+    {
+      "id": 16,
+      "question": "Which property creates flexible layout?",
+      "options": [
+        "display:flex",
+        "layout:flex",
+        "flexbox",
+        "display:block"
+      ],
+      "answer": "display:flex"
+    },
+    {
+      "id": 17,
+      "question": "Which property defines flex direction?",
+      "options": [
+        "flex-direction",
+        "flex-layout",
+        "direction-flex",
+        "layout-direction"
+      ],
+      "answer": "flex-direction"
+    },
+    {
+      "id": 18,
+      "question": "Which property aligns flex items horizontally?",
+      "options": [
+        "justify-content",
+        "align-items",
+        "align-content",
+        "flex-align"
+      ],
+      "answer": "justify-content"
+    },
+    {
+      "id": 19,
+      "question": "Which property aligns flex items vertically?",
+      "options": [
+        "justify-content",
+        "align-items",
+        "flex-position",
+        "flex-direction"
+      ],
+      "answer": "align-items"
+    },
+    {
+      "id": 20,
+      "question": "Which property wraps flex items?",
+      "options": [
+        "flex-wrap",
+        "flex-loop",
+        "wrap-items",
+        "flex-break"
+      ],
+      "answer": "flex-wrap"
+    },
+
+    {
+      "id": 21,
+      "question": "Which property creates grid layout?",
+      "options": [
+        "display:grid",
+        "grid-layout",
+        "grid-system",
+        "display:flex"
+      ],
+      "answer": "display:grid"
+    },
+    {
+      "id": 22,
+      "question": "Which property defines grid columns?",
+      "options": [
+        "grid-template-columns",
+        "grid-columns",
+        "grid-layout",
+        "columns-grid"
+      ],
+      "answer": "grid-template-columns"
+    },
+    {
+      "id": 23,
+      "question": "Which property defines grid rows?",
+      "options": [
+        "grid-template-rows",
+        "grid-rows",
+        "grid-layout",
+        "rows-grid"
+      ],
+      "answer": "grid-template-rows"
+    },
+    {
+      "id": 24,
+      "question": "Which property adds space between grid items?",
+      "options": [
+        "grid-gap",
+        "grid-space",
+        "grid-padding",
+        "grid-margin"
+      ],
+      "answer": "grid-gap"
+    },
+    {
+      "id": 25,
+      "question": "Which property controls element position?",
+      "options": [
+        "position",
+        "align",
+        "place",
+        "move"
+      ],
+      "answer": "position"
+    },
+
+    {
+      "id": 26,
+      "question": "Which position is default?",
+      "options": [
+        "static",
+        "relative",
+        "absolute",
+        "fixed"
+      ],
+      "answer": "static"
+    },
+    {
+      "id": 27,
+      "question": "Which position places element relative to viewport?",
+      "options": [
+        "absolute",
+        "fixed",
+        "relative",
+        "static"
+      ],
+      "answer": "fixed"
+    },
+    {
+      "id": 28,
+      "question": "Which position moves element relative to itself?",
+      "options": [
+        "relative",
+        "fixed",
+        "absolute",
+        "static"
+      ],
+      "answer": "relative"
+    },
+    {
+      "id": 29,
+      "question": "Which property rotates elements?",
+      "options": [
+        "rotate",
+        "transform",
+        "animation",
+        "transition"
+      ],
+      "answer": "transform"
+    },
+    {
+      "id": 30,
+      "question": "Which property creates smooth changes?",
+      "options": [
+        "animation",
+        "transition",
+        "transform",
+        "effect"
+      ],
+      "answer": "transition"
+    },
+
+    {
+      "id": 31,
+      "question": "Which property creates animations?",
+      "options": [
+        "animation",
+        "transition",
+        "effect",
+        "transform"
+      ],
+      "answer": "animation"
+    },
+    {
+      "id": 32,
+      "question": "Which pseudo-class applies on hover?",
+      "options": [
+        ":hover",
+        ":click",
+        ":focus",
+        ":active"
+      ],
+      "answer": ":hover"
+    },
+    {
+      "id": 33,
+      "question": "Which pseudo-class selects first child?",
+      "options": [
+        ":first-child",
+        ":child-first",
+        ":start-child",
+        ":child"
+      ],
+      "answer": ":first-child"
+    },
+    {
+      "id": 34,
+      "question": "Which pseudo-class selects active element?",
+      "options": [
+        ":active",
+        ":focus",
+        ":hover",
+        ":target"
+      ],
+      "answer": ":active"
+    },
+    {
+      "id": 35,
+      "question": "Which property changes cursor style?",
+      "options": [
+        "cursor",
+        "pointer",
+        "mouse",
+        "icon"
+      ],
+      "answer": "cursor"
+    },
+
+    {
+      "id": 36,
+      "question": "Which feature makes responsive design?",
+      "options": [
+        "media queries",
+        "flexbox",
+        "grid",
+        "animation"
+      ],
+      "answer": "media queries"
+    },
+    {
+      "id": 37,
+      "question": "Which rule defines responsive breakpoints?",
+      "options": [
+        "@media",
+        "@responsive",
+        "@screen",
+        "@device"
+      ],
+      "answer": "@media"
+    },
+    {
+      "id": 38,
+      "question": "Which framework uses CSS?",
+      "options": [
+        "Bootstrap",
+        "Tailwind",
+        "Foundation",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "id": 39,
+      "question": "Which CSS file extension?",
+      "options": [
+        ".css",
+        ".html",
+        ".js",
+        ".json"
+      ],
+      "answer": ".css"
+    },
+    {
+      "id": 40,
+      "question": "Which property hides element?",
+      "options": [
+        "display:none",
+        "hidden",
+        "visibility:none",
+        "opacity:0"
+      ],
+      "answer": "display:none"
+    },
+
+    {
+      "id": 41,
+      "question": "Which property controls element transparency?",
+      "options": [
+        "opacity",
+        "visibility",
+        "display",
+        "alpha"
+      ],
+      "answer": "opacity"
+    },
+    {
+      "id": 42,
+      "question": "Which property controls overflow content?",
+      "options": [
+        "overflow",
+        "scroll",
+        "clip",
+        "flow"
+      ],
+      "answer": "overflow"
+    },
+    {
+      "id": 43,
+      "question": "Which property sets font family?",
+      "options": [
+        "font-family",
+        "font-style",
+        "font-type",
+        "text-font"
+      ],
+      "answer": "font-family"
+    },
+    {
+      "id": 44,
+      "question": "Which property adds shadow to text?",
+      "options": [
+        "text-shadow",
+        "font-shadow",
+        "shadow",
+        "text-style"
+      ],
+      "answer": "text-shadow"
+    },
+    {
+      "id": 45,
+      "question": "Which property adds shadow to box?",
+      "options": [
+        "box-shadow",
+        "shadow",
+        "border-shadow",
+        "element-shadow"
+      ],
+      "answer": "box-shadow"
+    },
+
+    {
+      "id": 46,
+      "question": "CSS is mainly used for?",
+      "options": [
+        "Styling web pages",
+        "Backend development",
+        "Database design",
+        "Server configuration"
+      ],
+      "answer": "Styling web pages"
+    },
+    {
+      "id": 47,
+      "question": "CSS works with?",
+      "options": [
+        "HTML",
+        "JavaScript",
+        "Both HTML and JavaScript",
+        "Python"
+      ],
+      "answer": "Both HTML and JavaScript"
+    },
+    {
+      "id": 48,
+      "question": "Which layout system introduced recently?",
+      "options": [
+        "Flexbox",
+        "Grid",
+        "Both Flexbox and Grid",
+        "Tables"
+      ],
+      "answer": "Both Flexbox and Grid"
+    },
+    {
+      "id": 49,
+      "question": "CSS helps create?",
+      "options": [
+        "Responsive websites",
+        "Animations",
+        "Layouts",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "id": 50,
+      "question": "CSS is used for?",
+      "options": [
+        "Design",
+        "Layout",
+        "Responsive UI",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    }
+  ]
+}

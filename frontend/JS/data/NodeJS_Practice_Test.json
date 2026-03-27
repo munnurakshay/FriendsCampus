@@ -1,0 +1,562 @@
+
+{
+  "NodeJS_Practice_Test": [
+    {
+      "id": 1,
+      "question": "What is Node.js?",
+      "options": [
+        "A programming language",
+        "A JavaScript runtime environment",
+        "A database",
+        "A frontend framework"
+      ],
+      "answer": "A JavaScript runtime environment"
+    },
+    {
+      "id": 2,
+      "question": "Node.js is built on which engine?",
+      "options": [
+        "SpiderMonkey",
+        "V8 Engine",
+        "Chakra",
+        "Rhino"
+      ],
+      "answer": "V8 Engine"
+    },
+    {
+      "id": 3,
+      "question": "Which command initializes a Node.js project?",
+      "options": [
+        "node init",
+        "npm init",
+        "start npm",
+        "init node"
+      ],
+      "answer": "npm init"
+    },
+    {
+      "id": 4,
+      "question": "What does NPM stand for?",
+      "options": [
+        "Node Package Manager",
+        "Node Project Manager",
+        "New Package Manager",
+        "Node Programming Manager"
+      ],
+      "answer": "Node Package Manager"
+    },
+    {
+      "id": 5,
+      "question": "Which file stores Node.js project dependencies?",
+      "options": [
+        "index.js",
+        "package.json",
+        "app.js",
+        "config.json"
+      ],
+      "answer": "package.json"
+    },
+    {
+      "id": 6,
+      "question": "Which method is used to include modules in Node.js?",
+      "options": [
+        "require()",
+        "include()",
+        "importModule()",
+        "load()"
+      ],
+      "answer": "require()"
+    },
+    {
+      "id": 7,
+      "question": "Which module is used to create servers in Node.js?",
+      "options": [
+        "http",
+        "server",
+        "net",
+        "web"
+      ],
+      "answer": "http"
+    },
+    {
+      "id": 8,
+      "question": "Which module is used for file operations?",
+      "options": [
+        "file",
+        "fs",
+        "storage",
+        "disk"
+      ],
+      "answer": "fs"
+    },
+    {
+      "id": 9,
+      "question": "Which module helps handle file paths?",
+      "options": [
+        "route",
+        "path",
+        "file",
+        "location"
+      ],
+      "answer": "path"
+    },
+    {
+      "id": 10,
+      "question": "Node.js follows which architecture?",
+      "options": [
+        "Event-driven",
+        "Layered",
+        "Client-server",
+        "Multi-threaded"
+      ],
+      "answer": "Event-driven"
+    },
+
+    {
+      "id": 11,
+      "question": "What is the event loop in Node.js?",
+      "options": [
+        "A database query",
+        "A process handling asynchronous callbacks",
+        "A file handler",
+        "A compiler"
+      ],
+      "answer": "A process handling asynchronous callbacks"
+    },
+    {
+      "id": 12,
+      "question": "Which method creates an HTTP server?",
+      "options": [
+        "http.server()",
+        "http.createServer()",
+        "server.create()",
+        "create.http()"
+      ],
+      "answer": "http.createServer()"
+    },
+    {
+      "id": 13,
+      "question": "Which command installs a package?",
+      "options": [
+        "npm add",
+        "npm install",
+        "npm get",
+        "npm download"
+      ],
+      "answer": "npm install"
+    },
+    {
+      "id": 14,
+      "question": "Which command installs a package globally?",
+      "options": [
+        "npm install -g",
+        "npm global install",
+        "npm g install",
+        "npm global"
+      ],
+      "answer": "npm install -g"
+    },
+    {
+      "id": 15,
+      "question": "Which framework is commonly used with Node.js?",
+      "options": [
+        "React",
+        "Angular",
+        "Express",
+        "Vue"
+      ],
+      "answer": "Express"
+    },
+    {
+      "id": 16,
+      "question": "What is Express.js?",
+      "options": [
+        "Frontend framework",
+        "Database",
+        "Node.js web framework",
+        "Programming language"
+      ],
+      "answer": "Node.js web framework"
+    },
+    {
+      "id": 17,
+      "question": "Which method starts a server in Express?",
+      "options": [
+        "app.start()",
+        "app.listen()",
+        "server.start()",
+        "run.app()"
+      ],
+      "answer": "app.listen()"
+    },
+    {
+      "id": 18,
+      "question": "Which method handles GET requests?",
+      "options": [
+        "app.fetch()",
+        "app.get()",
+        "app.request()",
+        "app.receive()"
+      ],
+      "answer": "app.get()"
+    },
+    {
+      "id": 19,
+      "question": "Which method handles POST requests?",
+      "options": [
+        "app.post()",
+        "app.send()",
+        "app.push()",
+        "app.submit()"
+      ],
+      "answer": "app.post()"
+    },
+    {
+      "id": 20,
+      "question": "Middleware in Express is?",
+      "options": [
+        "A database",
+        "A function executed between request and response",
+        "A server",
+        "A module"
+      ],
+      "answer": "A function executed between request and response"
+    },
+
+    {
+      "id": 21,
+      "question": "Which function sends response in Express?",
+      "options": [
+        "res.send()",
+        "res.output()",
+        "res.return()",
+        "res.display()"
+      ],
+      "answer": "res.send()"
+    },
+    {
+      "id": 22,
+      "question": "Which function sends JSON response?",
+      "options": [
+        "res.sendJSON()",
+        "res.json()",
+        "res.data()",
+        "res.object()"
+      ],
+      "answer": "res.json()"
+    },
+    {
+      "id": 23,
+      "question": "Which library connects MongoDB with Node.js?",
+      "options": [
+        "Mongoose",
+        "MongoConnect",
+        "MongoDriver",
+        "DBConnector"
+      ],
+      "answer": "Mongoose"
+    },
+    {
+      "id": 24,
+      "question": "Which command starts Node.js program?",
+      "options": [
+        "start app.js",
+        "node app.js",
+        "run app.js",
+        "execute app.js"
+      ],
+      "answer": "node app.js"
+    },
+    {
+      "id": 25,
+      "question": "Which file is default entry point in Node apps?",
+      "options": [
+        "main.js",
+        "index.js",
+        "start.js",
+        "server.js"
+      ],
+      "answer": "index.js"
+    },
+
+    {
+      "id": 26,
+      "question": "Which module handles events?",
+      "options": [
+        "events",
+        "eventHandler",
+        "listener",
+        "trigger"
+      ],
+      "answer": "events"
+    },
+    {
+      "id": 27,
+      "question": "Node.js uses which programming language?",
+      "options": [
+        "Python",
+        "JavaScript",
+        "Java",
+        "C++"
+      ],
+      "answer": "JavaScript"
+    },
+    {
+      "id": 28,
+      "question": "Which method reads files?",
+      "options": [
+        "fs.readFile()",
+        "fs.getFile()",
+        "fs.openFile()",
+        "fs.fetchFile()"
+      ],
+      "answer": "fs.readFile()"
+    },
+    {
+      "id": 29,
+      "question": "Which method writes files?",
+      "options": [
+        "fs.writeFile()",
+        "fs.createFile()",
+        "fs.saveFile()",
+        "fs.storeFile()"
+      ],
+      "answer": "fs.writeFile()"
+    },
+    {
+      "id": 30,
+      "question": "Which method deletes files?",
+      "options": [
+        "fs.remove()",
+        "fs.delete()",
+        "fs.unlink()",
+        "fs.drop()"
+      ],
+      "answer": "fs.unlink()"
+    },
+
+    {
+      "id": 31,
+      "question": "Which protocol is used by Node HTTP module?",
+      "options": [
+        "FTP",
+        "HTTP",
+        "SMTP",
+        "TCP"
+      ],
+      "answer": "HTTP"
+    },
+    {
+      "id": 32,
+      "question": "Node.js is mainly used for?",
+      "options": [
+        "Frontend design",
+        "Backend development",
+        "Database design",
+        "Image editing"
+      ],
+      "answer": "Backend development"
+    },
+    {
+      "id": 33,
+      "question": "Which stack includes Node.js?",
+      "options": [
+        "MERN",
+        "LAMP",
+        "WAMP",
+        "XAMPP"
+      ],
+      "answer": "MERN"
+    },
+    {
+      "id": 34,
+      "question": "Which object handles requests?",
+      "options": [
+        "req",
+        "requestHandler",
+        "res",
+        "server"
+      ],
+      "answer": "req"
+    },
+    {
+      "id": 35,
+      "question": "Which object sends responses?",
+      "options": [
+        "res",
+        "req",
+        "responseHandler",
+        "output"
+      ],
+      "answer": "res"
+    },
+
+    {
+      "id": 36,
+      "question": "Which command installs Express?",
+      "options": [
+        "npm express",
+        "npm install express",
+        "npm add express",
+        "npm get express"
+      ],
+      "answer": "npm install express"
+    },
+    {
+      "id": 37,
+      "question": "Which environment variable stores port number?",
+      "options": [
+        "PORT",
+        "SERVER",
+        "NODE_PORT",
+        "HTTP_PORT"
+      ],
+      "answer": "PORT"
+    },
+    {
+      "id": 38,
+      "question": "Which library manages environment variables?",
+      "options": [
+        "dotenv",
+        "config",
+        "env",
+        "environment"
+      ],
+      "answer": "dotenv"
+    },
+    {
+      "id": 39,
+      "question": "Which method ends response?",
+      "options": [
+        "res.end()",
+        "res.close()",
+        "res.finish()",
+        "res.stop()"
+      ],
+      "answer": "res.end()"
+    },
+    {
+      "id": 40,
+      "question": "Which framework is lightweight for Node?",
+      "options": [
+        "Express",
+        "Angular",
+        "React",
+        "Bootstrap"
+      ],
+      "answer": "Express"
+    },
+
+    {
+      "id": 41,
+      "question": "Which method logs output?",
+      "options": [
+        "console.print()",
+        "console.log()",
+        "console.output()",
+        "console.show()"
+      ],
+      "answer": "console.log()"
+    },
+    {
+      "id": 42,
+      "question": "Which module handles URLs?",
+      "options": [
+        "url",
+        "path",
+        "route",
+        "link"
+      ],
+      "answer": "url"
+    },
+    {
+      "id": 43,
+      "question": "Which command updates packages?",
+      "options": [
+        "npm update",
+        "npm upgrade",
+        "npm refresh",
+        "npm reload"
+      ],
+      "answer": "npm update"
+    },
+    {
+      "id": 44,
+      "question": "Which command removes packages?",
+      "options": [
+        "npm remove",
+        "npm uninstall",
+        "npm delete",
+        "npm clear"
+      ],
+      "answer": "npm uninstall"
+    },
+    {
+      "id": 45,
+      "question": "Node.js applications are?",
+      "options": [
+        "Blocking",
+        "Non-blocking",
+        "Synchronous",
+        "Sequential"
+      ],
+      "answer": "Non-blocking"
+    },
+
+    {
+      "id": 46,
+      "question": "Which database is commonly used with Node?",
+      "options": [
+        "MongoDB",
+        "Excel",
+        "Access",
+        "SQLite only"
+      ],
+      "answer": "MongoDB"
+    },
+    {
+      "id": 47,
+      "question": "Which API style is common with Node?",
+      "options": [
+        "REST API",
+        "SOAP",
+        "RPC",
+        "FTP"
+      ],
+      "answer": "REST API"
+    },
+    {
+      "id": 48,
+      "question": "Which authentication method is common?",
+      "options": [
+        "JWT",
+        "HTTP",
+        "FTP",
+        "SMTP"
+      ],
+      "answer": "JWT"
+    },
+    {
+      "id": 49,
+      "question": "Which encryption library hashes passwords?",
+      "options": [
+        "bcrypt",
+        "hashlib",
+        "cryptoJS",
+        "secure"
+      ],
+      "answer": "bcrypt"
+    },
+    {
+      "id": 50,
+      "question": "Node.js is mainly used for building?",
+      "options": [
+        "Web servers",
+        "APIs",
+        "Real-time applications",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    }
+  ]
+}

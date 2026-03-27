@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <link rel="stylesheet" href="/frontend/CSS/dashboard.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <nav id="sidebar">
+                <ul>
+                    <li><a href="/frontend/HTML/dashboard.html"><span class="material-symbols-outlined">home</span></a>
+                    </li>
+                    <li><a href="#"><span class="material-symbols-outlined">trending_up</span></a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">auto_stories</span></a></li>
+                    <li><a href="/frontend/HTML/mentor.html"><span
+                                class="material-symbols-outlined">contacts_product</span></a></li>
+                    <li><a href="/frontend/HTML/roadmaps.html"><span class="material-symbols-outlined">task</span></a></li>
+                    <li><a href="/frontend/HTML/hackathon.html"><span class="material-symbols-outlined">event</span></a></li>
+                    <li><a href="/frontend/HTML/profile.html"><span class="material-symbols-outlined">person</span></a>
+                    </li>
+                    <li><a href="/frontend/HTML/login.html"><span class="material-symbols-outlined">logout</span></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main">
+            <div class="details">
+                <div class="min_details">
+
+                    <div class="notifications">
+
+                        <h2>Notifications</h2>
+
+                        <div id="request_notifications">
+
+                            <p class="empty">No notifications yet</p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="hackathons"></div>
+
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="top">
+                    <div class="search"><input type="search"
+                            placeholder="Search..                                                            🔍"></div>
+                </div>
+                <div class="main_head">
+                    <div class="student">
+                        <h2 id="greeting"></h2>
+                        <p id="motivation"></p>
+                    </div>
+                    <div class="char_img">
+                        <img id="character_img" src="../Assets/boys.png" alt="">
+                    </div>
+                </div>
+                <div class="features">
+                    <div class="container1"><a href="roadmaps.html"><span class="material-symbols-outlined">map </span>
+                            <h2>Roadmaps</h2>
+                            <h3>Explore structured learning paths for your chosen skill</h3>
+                        </a></div>
+                    <div class="container1"><a href="mentor.html"><span class="material-symbols-outlined">contacts_product </span>
+                            <h2>Mentor</h2>
+                            <h3>Connect with experienced mentors for guidance and support</h3>
+                        </a></div>
+                    <div class="container1"><a href=""><span class="material-symbols-outlined">groups </span>
+                            <h2>Community</h2>
+                            <h3>Collaborate and learn with fellow students</h3>
+                        </a></div>
+                    <div class="container1">
+                        <a href="/frontend/HTML/hackathon.html">
+                            <span class="material-symbols-outlined">event</span>
+                            <h2>Opportunities</h2>
+                            <h3>Discover hackathons, workshops and internships</h3>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="module" src="/frontend/JS/dashboard.js"></script>
+</body>
+
+</html>

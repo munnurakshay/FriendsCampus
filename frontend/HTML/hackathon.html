@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hackathon Details</title>
+
+<link rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+<link rel="stylesheet" href="/frontend/CSS/hackathon.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- SIDEBAR -->
+<div class="nav">
+<nav id="sidebar">
+<ul>
+<li><a href="/frontend/HTML/dashboard.html"><span class="material-symbols-outlined">home</span></a>
+                    </li>
+                    <li><a href="#"><span class="material-symbols-outlined">trending_up</span></a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">auto_stories</span></a></li>
+                    <li><a href="/frontend/HTML/mentor.html"><span
+                                class="material-symbols-outlined">contacts_product</span></a></li>
+                    <li><a href="/frontend/HTML/roadmaps.html"><span class="material-symbols-outlined">task</span></a></li>
+                    <li><a href="/frontend/HTML/hackathon.html"><span class="material-symbols-outlined">event</span></a></li>
+                    <li><a href="/frontend/HTML/profile.html"><span class="material-symbols-outlined">person</span></a>
+                    </li>
+                    <li><a href="/frontend/HTML/login.html"><span class="material-symbols-outlined">logout</span></a>
+                    </li>
+</ul>
+</nav>
+</div>
+
+<!-- MAIN -->
+ <div class="main">
+<div id="hackathon_list">
+
+<div class="top">
+<div class="search">
+<input type="text" id="hack_search" placeholder="Search hackathon...">
+</div>
+</div>
+
+<div class="hack_grid" id="hack_grid"></div>
+
+</div>
+
+
+<div id="hackathon_detail" style="display:none;">
+
+<div class="hackathon_container">
+
+<h1 id="hack_title"></h1>
+<p id="hack_desc"></p>
+
+<div class="hack_section">
+<h3>Timeline</h3>
+<ul id="timeline"></ul>
+</div>
+
+<div class="hack_section">
+<h3>Rules</h3>
+<ul id="rules"></ul>
+</div>
+
+<div class="hack_section">
+<h3>Prizes</h3>
+<ul id="prizes"></ul>
+</div>
+
+<button id="register_btn">Register Now</button>
+
+<button onclick="goBack()" style="margin-top:10px;">← Back</button>
+
+</div>
+
+</div>
+</div>
+
+<script src="/frontend/JS/hackathon.js"></script>
+
+</body>
+</html>

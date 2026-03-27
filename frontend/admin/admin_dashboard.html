@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - FriendsCampus</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="/frontend/admin/admin_dashboard.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <nav id="sidebar">
+                <ul>
+                    <li><a href="/frontend/admin/admin_dashboard.html"><span class="material-symbols-outlined">home</span></a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">group</span></a></li>
+                    <li><a href="/frontend/admin/admin_login.html"><span class="material-symbols-outlined">logout</span></a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main">
+            <div class="content">
+                
+                <div class="top">
+                    <div class="search">
+                        <input type="search" placeholder="Search students... 🔍">
+                    </div>
+                </div>
+
+                <div class="main_head">
+                    <div class="student">
+                        <h2 id="greeting">Welcome, Admin</h2>
+                        <p id="motivation">Manage your campus students and branches here.</p>
+                    </div>
+                </div>
+
+                <div class="admin_controls" style="margin-top: 20px; margin-bottom: 20px; display: flex; flex-wrap: wrap; gap: 20px; align-items: center;">
+                    
+                    <div>
+                        <label for="branch_filter"><strong>Branch: </strong></label>
+                        <select id="branch_filter" style="padding: 8px; font-size: 14px; border-radius: 5px; border: 1px solid #ccc;">
+                            <option value="CSE">CSE</option>
+                            <option value="ECE">ECE</option>
+                            <option value="IT">IT</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="year_filter"><strong>Year: </strong></label>
+                        <select id="year_filter" style="padding: 8px; font-size: 14px; border-radius: 5px; border: 1px solid #ccc;">
+                            <option value="1st Year">1st Year</option>
+                            <option value="2nd Year" selected>2nd Year</option>
+                            <option value="3rd Year">3rd Year</option>
+                            <option value="4th Year">4th Year</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="section_filter"><strong>Section: </strong></label>
+                        <select id="section_filter" style="padding: 8px; font-size: 14px; border-radius: 5px; border: 1px solid #ccc;">
+                            <option value="All">All Sections</option>
+                            <option value="A">Section A</option>
+                            <option value="B">Section B</option>
+                            <option value="C">Section C</option>
+                            <option value="D">Section D</option>
+                            <option value="E">Section E</option>
+                            <option value="F">Section F</option>
+                        </select>
+                    </div>
+
+                    <div style="background: #e3f2fd; padding: 8px 15px; border-radius: 20px; font-weight: bold; color: #1976d2;">
+                        Students: <span id="student_count">0</span>
+                    </div>
+                </div>
+
+                <div class="table_container" style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                    <table style="width: 100%; border-collapse: collapse; text-align: left;">
+                        <thead>
+                            <tr style="background: #f4f4f4; border-bottom: 2px solid #ddd;">
+                                <th style="padding: 12px;">Name</th>
+                                <th style="padding: 12px;">Email</th>
+                                <th style="padding: 12px;">Branch / Sec</th>
+                                <th style="padding: 12px;">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="student_table_body">
+                            </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="/frontend/admin/admin_dashboard.js"></script>
+</body>
+
+</html>

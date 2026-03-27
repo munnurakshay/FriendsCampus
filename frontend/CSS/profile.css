@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html,body{
+width:100%;
+height:100%;
+font-family:'Urbanist',sans-serif;
+}
+
+
+/* ===== MAIN CONTAINER ===== */
+
+.container{
+width:100%;
+min-height:100vh;
+background:linear-gradient(to bottom,#fafeff,#e6f3fc);
+display:flex;
+}
+
+
+/* ===== SIDEBAR ===== */
+
+.nav{
+width:70px;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+#sidebar ul{
+list-style:none;
+display:flex;
+flex-direction:column;
+gap:30px;
+}
+
+#sidebar a{
+text-decoration:none;
+}
+
+.material-symbols-outlined{
+font-size:1.6rem;
+color:#94a3b8;
+cursor:pointer;
+transition:0.3s;
+}
+
+.material-symbols-outlined:hover{
+color:#3b82f6;
+}
+
+
+/* ===== BURGER ICON ===== */
+
+.burger{
+display:none;
+cursor:pointer;
+}
+
+
+/* ===== MAIN DASHBOARD ===== */
+
+.main{
+flex:1;
+background:white;
+border-radius:60px 0 0 60px;
+box-shadow:0 20px 25px #e6f3fc;
+display:flex;
+padding:30px;
+gap:10px;
+}
+
+
+/* ===== LEFT CONTENT ===== */
+
+.content{
+width:60%;
+border-radius:20px;
+padding:30px;
+box-shadow:0 0 25px #e6f3fc;
+display:flex;
+flex-direction:column;
+}
+
+
+/* ===== PROFILE ===== */
+
+.profile{
+width:100%;
+background-color: white;
+box-shadow:0 0 25px #e6f3fc;
+border-radius:20px;
+}
+
+.bg_img{
+height:150px;
+}
+
+.bg_img img{
+width:100%;
+height:100%;
+object-fit:cover;
+border-radius:20px 20px 0 0;
+}
+
+
+.profile_details{
+display:flex;
+gap:20px;
+height:max-content;
+}
+
+
+.user_img{
+width:120px;
+height:120px;
+border-radius:20px;
+background:white;
+margin-left:40px;
+margin-top:-30px;
+padding:5px;
+box-shadow:0 0 25px #e6f3fc;
+z-index:10;
+}
+
+.user_img img{
+width:100%;
+height:100%;
+object-fit:cover;
+border-radius:20px;
+}
+
+.user_details{
+margin-top:35px;
+}
+
+.user_details h2{
+font-size:20px;
+}
+
+.user_details h3{
+font-size:16px;
+font-weight:500;
+margin-top:6px;
+}
+
+.user_bio{
+  padding: 20px;
+  font-size: 14px;
+}
+/* EDIT BUTTON */
+
+#edit_profile{
+width:140px;
+height:40px;
+border:none;
+font-family:'Urbanist';
+display:flex;
+justify-content:center;
+align-items:center;
+font-weight:600;
+background:#e6f3fc;
+border-radius:6px;
+box-shadow:0 0 25px #e6f3fc;
+cursor:pointer;
+margin-top:50px;
+gap:10px;
+}
+
+
+/* ===== SKILLS ===== */
+
+.skills{
+margin-top:40px;
+width:100%;
+}
+
+.skills_details{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+gap:15px;
+margin-top:15px;
+}
+
+.skill{
+display:flex;
+flex-direction:column;
+align-items:center;
+padding:15px;
+background:white;
+border-radius:10px;
+box-shadow:0 6px 15px rgba(0,0,0,0.05);
+}
+
+.skill img{
+width:40px;
+height:40px;
+object-fit:contain;
+}
+
+.skill p{
+margin-top:6px;
+font-size:13px;
+font-weight:500;
+}
+
+
+/* ===== PROJECT SECTION ===== */
+
+.content_two{
+width:40%;
+border-radius:20px;
+padding:25px;
+box-shadow:0 8px 30px rgba(0,0,0,0.05);
+display:flex;
+flex-direction:column;
+gap:12px;
+}
+
+
+/* PROJECT CARD */
+
+.projects{
+background:white;
+box-shadow:0 8px 25px rgba(0,0,0,0.05);
+border-radius:16px;
+padding:18px;
+display:flex;
+flex-direction:column;
+gap:6px;
+transition:.2s;
+}
+
+.projects:hover{
+transform:translateY(-3px);
+box-shadow:0 12px 30px rgba(0,0,0,0.08);
+}
+
+.project_title{
+font-size:20px;
+font-weight:600;
+color:#1e293b;
+}
+
+.project_desc{
+max-width: 250px;
+font-size:14px;
+color:#64748b;
+}
+
+.view_project,
+#add_project_btn{
+margin-top:10px;
+background:#e6f3fc;
+color:#1e293b;
+font-weight:600;
+font-family:'Urbanist';
+padding:8px 14px;
+border-radius:6px;
+border:none;
+cursor:pointer;
+}
+
+.view_project:hover{
+background:#cfe9fb;
+}
+
+.delete_project{
+margin-top:10px;
+background:#ff6363;
+color:white;
+font-weight:600;
+font-family:'Urbanist';
+padding:8px 14px;
+border-radius:6px;
+border:none;
+cursor:pointer;
+}
+
+#view_more_projects{
+margin-top:10px;
+background:#e6f3fc;
+color:#1e293b;
+font-weight:600;
+font-family:'Urbanist';
+padding:8px 14px;
+border-radius:6px;
+border:none;
+cursor:pointer;
+transition:0.2s;
+}
+
+#view_more_projects:hover{
+background:#cfe9fb;
+}
+
+/* ===== POPUP ===== */
+
+.edit_popup{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.4);
+display:flex;
+justify-content:center;
+align-items:center;
+visibility:hidden;
+}
+
+/* UPDATED POPUP */
+
+.popup_content{
+width:500px;
+max-height:80vh;            /* limits popup height */
+overflow-y:auto;            /* enables vertical scroll */
+background:white;
+padding:35px;
+border-radius:14px;
+display:flex;
+flex-direction:column;
+gap:16px;
+box-shadow:0 20px 40px rgba(0,0,0,0.08);
+}
+
+/* INPUTS */
+
+.popup_content input,
+.popup_content textarea{
+width:100%;
+padding:10px;
+border-radius:8px;
+border:1px solid #e2e8f0;
+font-family:'Urbanist';
+}
+
+/* BUTTONS */
+
+.popup_buttons{
+display:flex;
+justify-content:flex-end;
+gap:10px;
+}
+
+.popup_buttons button{
+padding:8px 18px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+
+#saveProfile{
+background:#4daafc;
+color:white;
+}
+
+#closePopup{
+background:#f1f5f9;
+}
+
+/* OPTIONAL SCROLLBAR STYLE */
+
+.popup_content::-webkit-scrollbar{
+width:6px;
+}
+
+.popup_content::-webkit-scrollbar-thumb{
+background:#cbd5e1;
+border-radius:10px;
+}
+
+.popup_content::-webkit-scrollbar-thumb:hover{
+background:#94a3b8;
+}
+
+/* ACHIEVEMENTS */
+
+.achievements{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+gap:15px;
+margin-top:20px;
+padding: 10px;
+}
+
+.achievement_card{
+background:white;
+padding:15px;
+border-radius:12px;
+text-align:center;
+box-shadow:0 6px 15px rgba(0,0,0,0.05);
+transition:0.2s;
+}
+
+.achievement_card:hover{
+transform:translateY(-3px);
+}
+
+.achievement_card h3{
+font-size:22px;
+color:#1e293b;
+}
+
+.achievement_card p{
+font-size:13px;
+color:#64748b;
+margin-top:4px;
+}
+/* ===== MOBILE RESPONSIVE ===== */
+
+@media (max-width:900px){
+
+.main{
+flex-direction:column;
+}
+
+.content{
+width:100%;
+}
+
+.content_two{
+width:100%;
+}
+
+.profile_details{
+flex-direction:column;
+height:auto;
+padding-bottom:20px;
+}
+
+#edit_profile{
+margin-top:10px;
+margin-left:20px;
+}
+
+}
+
+
+/* ===== BURGER SIDEBAR ===== */
+
+@media (max-width:768px){
+.profile_details{
+display:flex;
+flex-direction:column;
+align-items:center;
+text-align:center;
+height:auto;
+padding:20px;
+gap:10px;
+}
+
+/* center profile image */
+
+.user_img{
+margin-left:0;
+margin-top:-50px;
+width:90px;
+height:90px;
+}
+
+/* center text */
+
+.user_details{
+margin-top:10px;
+margin-left:0;
+}
+
+#user_name{
+font-size:18px;
+}
+
+#user_branch{
+font-size:14px;
+}
+
+/* center button */
+
+#edit_profile{
+margin-top:10px;
+margin-left:0;
+}
+
+.burger{
+display:block;
+position:fixed;
+top:20px;
+left:20px;
+background:white;
+padding:6px;
+border-radius:6px;
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
+z-index:1001;
+}
+
+.nav{
+position:fixed;
+left:-80px;
+top:0;
+height:100%;
+background:#fafeff;
+transition:.3s;
+z-index:1000;
+}
+
+.nav.active{
+left:0;
+}
+
+#sidebar ul{
+margin-top:60px;
+}
+
+}

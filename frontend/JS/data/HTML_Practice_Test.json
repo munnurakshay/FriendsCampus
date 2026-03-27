@@ -1,0 +1,562 @@
+{
+  "HTML_Practice_Test": [
+    {
+      "id": 1,
+      "question": "What does HTML stand for?",
+      "options": [
+        "Hyper Text Markup Language",
+        "High Text Markup Language",
+        "Hyperlinks and Text Markup Language",
+        "Home Tool Markup Language"
+      ],
+      "answer": "Hyper Text Markup Language"
+    },
+    {
+      "id": 2,
+      "question": "Which tag defines the HTML document?",
+      "options": [
+        "<html>",
+        "<head>",
+        "<body>",
+        "<doc>"
+      ],
+      "answer": "<html>"
+    },
+    {
+      "id": 3,
+      "question": "Which tag defines the document title?",
+      "options": [
+        "<title>",
+        "<meta>",
+        "<head>",
+        "<header>"
+      ],
+      "answer": "<title>"
+    },
+    {
+      "id": 4,
+      "question": "Which tag is used for paragraphs?",
+      "options": [
+        "<p>",
+        "<para>",
+        "<text>",
+        "<paragraph>"
+      ],
+      "answer": "<p>"
+    },
+    {
+      "id": 5,
+      "question": "Which tag creates a hyperlink?",
+      "options": [
+        "<a>",
+        "<link>",
+        "<href>",
+        "<url>"
+      ],
+      "answer": "<a>"
+    },
+    {
+      "id": 6,
+      "question": "Which attribute specifies link destination?",
+      "options": [
+        "src",
+        "href",
+        "link",
+        "path"
+      ],
+      "answer": "href"
+    },
+    {
+      "id": 7,
+      "question": "Which tag inserts an image?",
+      "options": [
+        "<img>",
+        "<image>",
+        "<pic>",
+        "<src>"
+      ],
+      "answer": "<img>"
+    },
+    {
+      "id": 8,
+      "question": "Which attribute defines image source?",
+      "options": [
+        "href",
+        "src",
+        "link",
+        "alt"
+      ],
+      "answer": "src"
+    },
+    {
+      "id": 9,
+      "question": "Which attribute provides alternative text?",
+      "options": [
+        "title",
+        "alt",
+        "text",
+        "caption"
+      ],
+      "answer": "alt"
+    },
+    {
+      "id": 10,
+      "question": "Which tag creates a line break?",
+      "options": [
+        "<lb>",
+        "<br>",
+        "<break>",
+        "<line>"
+      ],
+      "answer": "<br>"
+    },
+
+    {
+      "id": 11,
+      "question": "Which tag creates a horizontal line?",
+      "options": [
+        "<hr>",
+        "<line>",
+        "<break>",
+        "<divider>"
+      ],
+      "answer": "<hr>"
+    },
+    {
+      "id": 12,
+      "question": "Which tag defines headings?",
+      "options": [
+        "<h1> to <h6>",
+        "<head>",
+        "<heading>",
+        "<title>"
+      ],
+      "answer": "<h1> to <h6>"
+    },
+    {
+      "id": 13,
+      "question": "Which tag creates an unordered list?",
+      "options": [
+        "<ul>",
+        "<ol>",
+        "<li>",
+        "<list>"
+      ],
+      "answer": "<ul>"
+    },
+    {
+      "id": 14,
+      "question": "Which tag creates an ordered list?",
+      "options": [
+        "<ol>",
+        "<ul>",
+        "<li>",
+        "<list>"
+      ],
+      "answer": "<ol>"
+    },
+    {
+      "id": 15,
+      "question": "Which tag defines list items?",
+      "options": [
+        "<li>",
+        "<list>",
+        "<ul>",
+        "<item>"
+      ],
+      "answer": "<li>"
+    },
+
+    {
+      "id": 16,
+      "question": "Which tag creates a table?",
+      "options": [
+        "<table>",
+        "<tab>",
+        "<grid>",
+        "<tbl>"
+      ],
+      "answer": "<table>"
+    },
+    {
+      "id": 17,
+      "question": "Which tag defines table row?",
+      "options": [
+        "<tr>",
+        "<td>",
+        "<th>",
+        "<row>"
+      ],
+      "answer": "<tr>"
+    },
+    {
+      "id": 18,
+      "question": "Which tag defines table data?",
+      "options": [
+        "<td>",
+        "<tr>",
+        "<th>",
+        "<cell>"
+      ],
+      "answer": "<td>"
+    },
+    {
+      "id": 19,
+      "question": "Which tag defines table header?",
+      "options": [
+        "<th>",
+        "<td>",
+        "<tr>",
+        "<head>"
+      ],
+      "answer": "<th>"
+    },
+    {
+      "id": 20,
+      "question": "Which tag creates forms?",
+      "options": [
+        "<form>",
+        "<input>",
+        "<label>",
+        "<submit>"
+      ],
+      "answer": "<form>"
+    },
+
+    {
+      "id": 21,
+      "question": "Which tag creates input fields?",
+      "options": [
+        "<input>",
+        "<field>",
+        "<textbox>",
+        "<type>"
+      ],
+      "answer": "<input>"
+    },
+    {
+      "id": 22,
+      "question": "Which input type hides characters?",
+      "options": [
+        "text",
+        "password",
+        "hidden",
+        "secure"
+      ],
+      "answer": "password"
+    },
+    {
+      "id": 23,
+      "question": "Which input type creates checkbox?",
+      "options": [
+        "checkbox",
+        "check",
+        "option",
+        "box"
+      ],
+      "answer": "checkbox"
+    },
+    {
+      "id": 24,
+      "question": "Which input type creates radio buttons?",
+      "options": [
+        "radio",
+        "option",
+        "circle",
+        "select"
+      ],
+      "answer": "radio"
+    },
+    {
+      "id": 25,
+      "question": "Which tag defines labels?",
+      "options": [
+        "<label>",
+        "<tag>",
+        "<text>",
+        "<caption>"
+      ],
+      "answer": "<label>"
+    },
+
+    {
+      "id": 26,
+      "question": "Which tag defines dropdown list?",
+      "options": [
+        "<select>",
+        "<option>",
+        "<dropdown>",
+        "<menu>"
+      ],
+      "answer": "<select>"
+    },
+    {
+      "id": 27,
+      "question": "Which tag defines dropdown options?",
+      "options": [
+        "<option>",
+        "<item>",
+        "<select>",
+        "<choice>"
+      ],
+      "answer": "<option>"
+    },
+    {
+      "id": 28,
+      "question": "Which tag creates a button?",
+      "options": [
+        "<button>",
+        "<btn>",
+        "<click>",
+        "<press>"
+      ],
+      "answer": "<button>"
+    },
+    {
+      "id": 29,
+      "question": "Which tag groups form elements?",
+      "options": [
+        "<fieldset>",
+        "<group>",
+        "<formset>",
+        "<section>"
+      ],
+      "answer": "<fieldset>"
+    },
+    {
+      "id": 30,
+      "question": "Which tag defines form title?",
+      "options": [
+        "<legend>",
+        "<label>",
+        "<caption>",
+        "<title>"
+      ],
+      "answer": "<legend>"
+    },
+
+    {
+      "id": 31,
+      "question": "Which tag defines webpage body?",
+      "options": [
+        "<body>",
+        "<main>",
+        "<content>",
+        "<section>"
+      ],
+      "answer": "<body>"
+    },
+    {
+      "id": 32,
+      "question": "Which tag defines metadata?",
+      "options": [
+        "<meta>",
+        "<data>",
+        "<info>",
+        "<link>"
+      ],
+      "answer": "<meta>"
+    },
+    {
+      "id": 33,
+      "question": "Which tag links CSS?",
+      "options": [
+        "<link>",
+        "<style>",
+        "<css>",
+        "<script>"
+      ],
+      "answer": "<link>"
+    },
+    {
+      "id": 34,
+      "question": "Which tag writes internal CSS?",
+      "options": [
+        "<style>",
+        "<css>",
+        "<design>",
+        "<format>"
+      ],
+      "answer": "<style>"
+    },
+    {
+      "id": 35,
+      "question": "Which tag links JavaScript?",
+      "options": [
+        "<script>",
+        "<js>",
+        "<javascript>",
+        "<code>"
+      ],
+      "answer": "<script>"
+    },
+
+    {
+      "id": 36,
+      "question": "Which tag defines header section?",
+      "options": [
+        "<header>",
+        "<head>",
+        "<top>",
+        "<title>"
+      ],
+      "answer": "<header>"
+    },
+    {
+      "id": 37,
+      "question": "Which tag defines footer section?",
+      "options": [
+        "<footer>",
+        "<bottom>",
+        "<end>",
+        "<foot>"
+      ],
+      "answer": "<footer>"
+    },
+    {
+      "id": 38,
+      "question": "Which tag defines navigation?",
+      "options": [
+        "<nav>",
+        "<menu>",
+        "<navigate>",
+        "<link>"
+      ],
+      "answer": "<nav>"
+    },
+    {
+      "id": 39,
+      "question": "Which tag defines section?",
+      "options": [
+        "<section>",
+        "<div>",
+        "<article>",
+        "<content>"
+      ],
+      "answer": "<section>"
+    },
+    {
+      "id": 40,
+      "question": "Which tag groups elements?",
+      "options": [
+        "<div>",
+        "<group>",
+        "<section>",
+        "<span>"
+      ],
+      "answer": "<div>"
+    },
+
+    {
+      "id": 41,
+      "question": "Which tag styles inline text?",
+      "options": [
+        "<span>",
+        "<div>",
+        "<section>",
+        "<style>"
+      ],
+      "answer": "<span>"
+    },
+    {
+      "id": 42,
+      "question": "HTML is used for?",
+      "options": [
+        "Structuring web pages",
+        "Styling pages",
+        "Programming logic",
+        "Database management"
+      ],
+      "answer": "Structuring web pages"
+    },
+    {
+      "id": 43,
+      "question": "HTML works with?",
+      "options": [
+        "CSS",
+        "JavaScript",
+        "Both CSS and JavaScript",
+        "Python"
+      ],
+      "answer": "Both CSS and JavaScript"
+    },
+    {
+      "id": 44,
+      "question": "HTML file extension?",
+      "options": [
+        ".html",
+        ".htm",
+        ".web",
+        "Both .html and .htm"
+      ],
+      "answer": "Both .html and .htm"
+    },
+    {
+      "id": 45,
+      "question": "HTML belongs to?",
+      "options": [
+        "Markup language",
+        "Programming language",
+        "Database language",
+        "Query language"
+      ],
+      "answer": "Markup language"
+    },
+
+    {
+      "id": 46,
+      "question": "HTML is mainly used in?",
+      "options": [
+        "Web development",
+        "Game development",
+        "Database management",
+        "Networking"
+      ],
+      "answer": "Web development"
+    },
+    {
+      "id": 47,
+      "question": "HTML5 introduced?",
+      "options": [
+        "Semantic tags",
+        "Audio/video tags",
+        "Canvas",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "id": 48,
+      "question": "Which tag plays video?",
+      "options": [
+        "<video>",
+        "<media>",
+        "<movie>",
+        "<play>"
+      ],
+      "answer": "<video>"
+    },
+    {
+      "id": 49,
+      "question": "Which tag plays audio?",
+      "options": [
+        "<audio>",
+        "<sound>",
+        "<music>",
+        "<media>"
+      ],
+      "answer": "<audio>"
+    },
+    {
+      "id": 50,
+      "question": "HTML helps create?",
+      "options": [
+        "Web pages",
+        "Forms",
+        "Tables",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <link rel="stylesheet" href="/frontend/CSS/profile.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- SIDEBAR -->
+        <div class="nav">
+            <div class="burger" id="burger">
+                <span class="material-symbols-outlined">menu</span>
+            </div>
+            <nav id="sidebar">
+                <ul>
+                    <li><a href="/frontend/HTML/dashboard.html"><span class="material-symbols-outlined">home</span></a>
+                    </li>
+                    <li><a href="#"><span class="material-symbols-outlined">trending_up</span></a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">auto_stories</span></a></li>
+                    <li><a href="/frontend/HTML/mentor.html"><span
+                                class="material-symbols-outlined">contacts_product</span></a></li>
+                    <li><a href="/frontend/HTML/roadmaps.html"><span class="material-symbols-outlined">task</span></a></li>
+                    <li><a href="/frontend/HTML/hackathon.html"><span class="material-symbols-outlined">event</span></a></li>
+                    <li><a href="/frontend/HTML/profile.html"><span class="material-symbols-outlined">person</span></a>
+                    </li>
+                    <li><a href="/frontend/HTML/login.html"><span class="material-symbols-outlined">logout</span></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- MAIN -->
+        <div class="main">
+            <div class="content">
+
+                <!-- PROFILE SECTION -->
+                <div class="profile">
+
+                    <!-- COVER IMAGE -->
+                    <div class="bg_img">
+                        <img id="cover_img" src="/frontend/Assets/bg_img.jpg" alt="">
+                    </div>
+
+                    <div class="profile_details">
+
+                        <!-- PROFILE IMAGE -->
+                        <div class="user_img">
+                            <img id="profile_img" src="/frontend/Assets/user_profile.png" alt="">
+                        </div>
+
+                        <!-- USER DETAILS -->
+                        <div class="user_details">
+                            <h2 id="user_name"></h2>
+                            <h3 id="user_branch"></h3>
+                        </div>
+
+                        <button id="edit_profile"><span class="material-symbols-outlined">
+                                edit_square
+                            </span>Edit Profile</button>
+
+
+                    </div>
+                    <div class="user_bio" id="user_bio">
+                    </div>
+                    <div class="achievements">
+
+    <div class="achievement_card">
+        <span class="material-symbols-outlined ach_icon">rewarded_ads</span>
+        <h3 id="hackathons_count">0</h3>
+        <p>Hackathons</p>
+    </div>
+
+    <div class="achievement_card">
+        <span class="material-symbols-outlined ach_icon">folder_open</span>
+        <h3 id="projects_count">0</h3>
+        <p>Projects</p>
+    </div>
+
+    <div class="achievement_card">
+        <span class="material-symbols-outlined ach_icon">network_intel_node</span>
+        <h3 id="skills_count">0</h3>
+        <p>Skills</p>
+    </div>
+
+    <div class="achievement_card">
+        <span class="material-symbols-outlined ach_icon">communication</span>
+        <h3 id="mentors_count">0</h3>
+        <p>Mentored</p>
+    </div>
+
+</div>
+
+                </div>
+                <div class="skills">
+                    <h2>Skills</h2>
+                    <div class="skills_details">
+
+                    </div>
+                </div>
+
+                <!-- EDIT PROFILE POPUP -->
+                <div class="edit_popup" id="editPopup">
+                    <div class="popup_content">
+                        <h2>Edit Profile</h2>
+                        <label>Full Name</label>
+                        <input type="text" id="edit_name">
+                        <label>Profile Image</label>
+                        <input type="file" id="profileUpload" accept="image/*">
+                        <label>Cover Image</label>
+                        <input type="file" id="coverUpload" accept="image/*">
+                        <label>Bio</label>
+                        <textarea id="edit_bio" rows="3"></textarea>
+                        <div class="popup_buttons">
+                            <button id="saveProfile">Save</button>
+                            <button id="closePopup">Cancel</button>
+                        </div>
+
+                        <label>Select Skills</label>
+
+                        <div class="skill_select">
+
+                            <label>
+                                <input type="checkbox" value="HTML"> HTML
+                            </label>
+
+                            <label>
+                                <input type="checkbox" value="CSS"> CSS
+                            </label>
+
+                            <label>
+                                <input type="checkbox" value="JavaScript"> JavaScript
+                            </label>
+
+                            <label>
+                                <input type="checkbox" value="NodeJS"> NodeJS
+                            </label>
+
+                            <label>
+                                <input type="checkbox" value="MongoDB"> MongoDB
+                            </label>
+
+                            <label>
+                                <input type="checkbox" value="MySQL"> MySQL
+                            </label>
+
+                            <label>
+                                <input type="checkbox" value="Python"> Python
+                            </label>
+
+                            <label>
+                                <input type="checkbox" value="Java"> Java
+                            </label>
+
+                            <label>
+                                <input type="checkbox" value="Kotlin"> Kotlin
+                            </label>
+
+                            <label>
+                                <input type="checkbox" value="PostgreSQL"> PostgreSQL
+                            </label>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="content_two">
+
+                <h2>Projects</h2>
+
+                <button id="add_project_btn">+ Add Project</button>
+
+                <!-- Projects will be rendered here dynamically -->
+                <div id="projects_container"></div>
+
+            </div>
+
+
+            <!-- ADD PROJECT POPUP -->
+            <div class="edit_popup" id="projectPopup">
+
+                <div class="popup_content">
+
+                    <h2>Add Project</h2>
+
+                    <label>Project Title</label>
+                    <input type="text" id="project_title_input">
+
+                    <label>Description</label>
+                    <textarea id="project_desc_input"></textarea>
+
+                    <label>Project Link</label>
+                    <input type="text" id="project_link_input">
+
+                    <div class="popup_buttons">
+                        <button id="saveProject">Save</button>
+                        <button id="closeProjectPopup">Cancel</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <script type="module" src="/frontend/JS/profile.js"></script>
+
+</body>
+
+</html>

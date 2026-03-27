@@ -1,0 +1,562 @@
+
+{
+  "JavaScript_Practice_Test": [
+    {
+      "id": 1,
+      "question": "What is JavaScript?",
+      "options": [
+        "A programming language for web development",
+        "A database",
+        "A web browser",
+        "An operating system"
+      ],
+      "answer": "A programming language for web development"
+    },
+    {
+      "id": 2,
+      "question": "Which company developed JavaScript?",
+      "options": [
+        "Microsoft",
+        "Netscape",
+        "Google",
+        "IBM"
+      ],
+      "answer": "Netscape"
+    },
+    {
+      "id": 3,
+      "question": "Which keyword declares a variable?",
+      "options": [
+        "var",
+        "define",
+        "create",
+        "letvar"
+      ],
+      "answer": "var"
+    },
+    {
+      "id": 4,
+      "question": "Which keyword declares a block-scoped variable?",
+      "options": [
+        "var",
+        "let",
+        "define",
+        "static"
+      ],
+      "answer": "let"
+    },
+    {
+      "id": 5,
+      "question": "Which keyword declares a constant?",
+      "options": [
+        "let",
+        "const",
+        "var",
+        "final"
+      ],
+      "answer": "const"
+    },
+    {
+      "id": 6,
+      "question": "Which method prints output to console?",
+      "options": [
+        "print()",
+        "console.log()",
+        "display()",
+        "show()"
+      ],
+      "answer": "console.log()"
+    },
+    {
+      "id": 7,
+      "question": "Which operator checks value and type?",
+      "options": [
+        "==",
+        "===",
+        "=",
+        "!="
+      ],
+      "answer": "==="
+    },
+    {
+      "id": 8,
+      "question": "Which operator checks equality only?",
+      "options": [
+        "==",
+        "===",
+        "=",
+        "!=="
+      ],
+      "answer": "=="
+    },
+    {
+      "id": 9,
+      "question": "Which symbol is used for comments?",
+      "options": [
+        "//",
+        "##",
+        "**",
+        "--"
+      ],
+      "answer": "//"
+    },
+    {
+      "id": 10,
+      "question": "Which data type represents true/false?",
+      "options": [
+        "Boolean",
+        "String",
+        "Number",
+        "Array"
+      ],
+      "answer": "Boolean"
+    },
+
+    {
+      "id": 11,
+      "question": "Which data type stores text?",
+      "options": [
+        "String",
+        "Number",
+        "Boolean",
+        "Object"
+      ],
+      "answer": "String"
+    },
+    {
+      "id": 12,
+      "question": "Which data type stores numbers?",
+      "options": [
+        "Number",
+        "String",
+        "Array",
+        "Boolean"
+      ],
+      "answer": "Number"
+    },
+    {
+      "id": 13,
+      "question": "Which structure stores multiple values?",
+      "options": [
+        "Array",
+        "String",
+        "Boolean",
+        "Number"
+      ],
+      "answer": "Array"
+    },
+    {
+      "id": 14,
+      "question": "Which method adds element to array end?",
+      "options": [
+        "push()",
+        "add()",
+        "append()",
+        "insert()"
+      ],
+      "answer": "push()"
+    },
+    {
+      "id": 15,
+      "question": "Which method removes last array element?",
+      "options": [
+        "pop()",
+        "remove()",
+        "delete()",
+        "shift()"
+      ],
+      "answer": "pop()"
+    },
+    {
+      "id": 16,
+      "question": "Which loop repeats until condition is false?",
+      "options": [
+        "while",
+        "if",
+        "switch",
+        "try"
+      ],
+      "answer": "while"
+    },
+    {
+      "id": 17,
+      "question": "Which loop is used when iteration count known?",
+      "options": [
+        "for",
+        "while",
+        "if",
+        "switch"
+      ],
+      "answer": "for"
+    },
+    {
+      "id": 18,
+      "question": "Which statement handles conditions?",
+      "options": [
+        "if",
+        "loop",
+        "case",
+        "goto"
+      ],
+      "answer": "if"
+    },
+    {
+      "id": 19,
+      "question": "Which statement checks multiple conditions?",
+      "options": [
+        "switch",
+        "if",
+        "while",
+        "loop"
+      ],
+      "answer": "switch"
+    },
+    {
+      "id": 20,
+      "question": "Which keyword defines a function?",
+      "options": [
+        "function",
+        "func",
+        "define",
+        "method"
+      ],
+      "answer": "function"
+    },
+
+    {
+      "id": 21,
+      "question": "Which syntax defines arrow function?",
+      "options": [
+        "=>",
+        "->",
+        "::",
+        "**"
+      ],
+      "answer": "=>"
+    },
+    {
+      "id": 22,
+      "question": "Which method converts JSON to object?",
+      "options": [
+        "JSON.parse()",
+        "JSON.stringify()",
+        "JSON.convert()",
+        "JSON.object()"
+      ],
+      "answer": "JSON.parse()"
+    },
+    {
+      "id": 23,
+      "question": "Which method converts object to JSON?",
+      "options": [
+        "JSON.stringify()",
+        "JSON.parse()",
+        "JSON.create()",
+        "JSON.convert()"
+      ],
+      "answer": "JSON.stringify()"
+    },
+    {
+      "id": 24,
+      "question": "DOM stands for?",
+      "options": [
+        "Document Object Model",
+        "Data Object Model",
+        "Document Oriented Model",
+        "Dynamic Object Method"
+      ],
+      "answer": "Document Object Model"
+    },
+    {
+      "id": 25,
+      "question": "Which method selects element by id?",
+      "options": [
+        "getElementById()",
+        "getElement()",
+        "selectId()",
+        "queryId()"
+      ],
+      "answer": "getElementById()"
+    },
+
+    {
+      "id": 26,
+      "question": "Which method selects CSS selectors?",
+      "options": [
+        "querySelector()",
+        "getElement()",
+        "findElement()",
+        "cssSelect()"
+      ],
+      "answer": "querySelector()"
+    },
+    {
+      "id": 27,
+      "question": "Which event occurs on click?",
+      "options": [
+        "click",
+        "hover",
+        "focus",
+        "scroll"
+      ],
+      "answer": "click"
+    },
+    {
+      "id": 28,
+      "question": "Which method attaches event?",
+      "options": [
+        "addEventListener()",
+        "attachEvent()",
+        "addClick()",
+        "eventBind()"
+      ],
+      "answer": "addEventListener()"
+    },
+    {
+      "id": 29,
+      "question": "Which method fetches API data?",
+      "options": [
+        "fetch()",
+        "getData()",
+        "request()",
+        "callAPI()"
+      ],
+      "answer": "fetch()"
+    },
+    {
+      "id": 30,
+      "question": "Which object handles promises?",
+      "options": [
+        "Promise",
+        "Async",
+        "Task",
+        "Future"
+      ],
+      "answer": "Promise"
+    },
+
+    {
+      "id": 31,
+      "question": "Which keyword handles asynchronous code?",
+      "options": [
+        "async",
+        "await",
+        "both async and await",
+        "callback"
+      ],
+      "answer": "both async and await"
+    },
+    {
+      "id": 32,
+      "question": "Which method transforms arrays?",
+      "options": [
+        "map()",
+        "loop()",
+        "convert()",
+        "shift()"
+      ],
+      "answer": "map()"
+    },
+    {
+      "id": 33,
+      "question": "Which method filters arrays?",
+      "options": [
+        "filter()",
+        "select()",
+        "map()",
+        "reduce()"
+      ],
+      "answer": "filter()"
+    },
+    {
+      "id": 34,
+      "question": "Which method reduces array values?",
+      "options": [
+        "reduce()",
+        "map()",
+        "filter()",
+        "push()"
+      ],
+      "answer": "reduce()"
+    },
+    {
+      "id": 35,
+      "question": "Which object stores key-value pairs?",
+      "options": [
+        "Object",
+        "Array",
+        "String",
+        "Number"
+      ],
+      "answer": "Object"
+    },
+
+    {
+      "id": 36,
+      "question": "Which operator spreads array?",
+      "options": [
+        "...",
+        "===",
+        "&&",
+        "||"
+      ],
+      "answer": "..."
+    },
+    {
+      "id": 37,
+      "question": "Which feature introduced in ES6?",
+      "options": [
+        "Arrow functions",
+        "Classes",
+        "let/const",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "id": 38,
+      "question": "Which method delays execution?",
+      "options": [
+        "setTimeout()",
+        "delay()",
+        "wait()",
+        "timeout()"
+      ],
+      "answer": "setTimeout()"
+    },
+    {
+      "id": 39,
+      "question": "Which method repeats execution?",
+      "options": [
+        "setInterval()",
+        "repeat()",
+        "loop()",
+        "setLoop()"
+      ],
+      "answer": "setInterval()"
+    },
+    {
+      "id": 40,
+      "question": "Which keyword handles errors?",
+      "options": [
+        "try",
+        "catch",
+        "throw",
+        "try...catch"
+      ],
+      "answer": "try...catch"
+    },
+
+    {
+      "id": 41,
+      "question": "Which object represents browser window?",
+      "options": [
+        "window",
+        "document",
+        "browser",
+        "screen"
+      ],
+      "answer": "window"
+    },
+    {
+      "id": 42,
+      "question": "Which object represents webpage?",
+      "options": [
+        "document",
+        "window",
+        "page",
+        "screen"
+      ],
+      "answer": "document"
+    },
+    {
+      "id": 43,
+      "question": "Which function shows popup message?",
+      "options": [
+        "alert()",
+        "popup()",
+        "show()",
+        "notify()"
+      ],
+      "answer": "alert()"
+    },
+    {
+      "id": 44,
+      "question": "Which function takes user input?",
+      "options": [
+        "prompt()",
+        "input()",
+        "ask()",
+        "form()"
+      ],
+      "answer": "prompt()"
+    },
+    {
+      "id": 45,
+      "question": "Which function confirms action?",
+      "options": [
+        "confirm()",
+        "verify()",
+        "check()",
+        "approve()"
+      ],
+      "answer": "confirm()"
+    },
+
+    {
+      "id": 46,
+      "question": "JavaScript is mainly used for?",
+      "options": [
+        "Web interactivity",
+        "Backend development",
+        "Mobile apps",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "id": 47,
+      "question": "Which stack uses JavaScript everywhere?",
+      "options": [
+        "MERN",
+        "LAMP",
+        "WAMP",
+        "XAMPP"
+      ],
+      "answer": "MERN"
+    },
+    {
+      "id": 48,
+      "question": "Which framework uses JavaScript?",
+      "options": [
+        "React",
+        "Angular",
+        "Vue",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "id": 49,
+      "question": "JavaScript runs in?",
+      "options": [
+        "Browser",
+        "Server",
+        "Node.js",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "id": 50,
+      "question": "JavaScript is mainly used for?",
+      "options": [
+        "Dynamic web pages",
+        "Games",
+        "APIs",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    }
+  ]
+}

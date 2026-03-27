@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FriendsCampus</title>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <link rel="stylesheet" href="/frontend/CSS/mentor.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- ================= SIDEBAR ================= -->
+
+        <div class="nav">
+            <nav id="sidebar">
+
+                <ul>
+                    <li><a href="/frontend/HTML/dashboard.html"><span class="material-symbols-outlined">home</span></a>
+                    </li>
+                    <li><a href="#"><span class="material-symbols-outlined">trending_up</span></a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">auto_stories</span></a></li>
+                    <li><a href="/frontend/HTML/mentor.html"><span
+                                class="material-symbols-outlined">contacts_product</span></a></li>
+                    <li><a href="/frontend/HTML/roadmaps.html"><span class="material-symbols-outlined">task</span></a></li>
+                    <li><a href="/frontend/HTML/hackathon.html"><span class="material-symbols-outlined">event</span></a></li>
+                    <li><a href="/frontend/HTML/profile.html"><span class="material-symbols-outlined">person</span></a>
+                    </li>
+                    <li><a href="/frontend/HTML/login.html"><span class="material-symbols-outlined">logout</span></a>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+
+        <!-- ================= MAIN CONTENT ================= -->
+
+        <div class="main">
+
+            <!-- ================= MENTOR LIST ================= -->
+
+            <div class="content">
+
+                <div class="search">
+                    <input type="search" id="mentor_search" placeholder="Search by name or skill">
+                </div>
+
+                <div class="profiles"></div>
+
+            </div>
+
+            <!-- ================= CHAT PANEL ================= -->
+
+            <div class="chat">
+
+                <!-- CHAT USERS -->
+
+                <div class="chat_users" id="chat_users">
+
+                    <h3>Chats</h3>
+
+                </div>
+
+                <!-- CHAT WINDOW -->
+
+                <div class="chat_window">
+
+                    <!-- CHAT HEADER -->
+
+                    <div class="chat_header">
+
+                        <div class="chat_header_info">
+
+                            <img src="/frontend/Assets/user_profile.png" class="chat_header_avatar"
+                                id="chat_header_avatar">
+
+                            <h3 id="chat_user">Select a student</h3>
+
+                        </div>
+
+                        <div class="typing_indicator" id="typing_indicator">
+                        </div>
+
+                    </div>
+
+                    <!-- CHAT MESSAGES -->
+
+                    <div class="chat_messages" id="chat_messages">
+                    </div>
+
+                    <!-- CHAT INPUT -->
+
+                    <div class="chat_input">
+
+                        <input type="text" id="chat_text" placeholder="Type a message...">
+
+                        <button id="send_message">
+                            Send
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script type="module" src="/frontend/JS/mentor.js"></script>
+
+</body>
+
+</html>

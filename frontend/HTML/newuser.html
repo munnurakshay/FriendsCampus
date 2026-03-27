@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New User</title>
+    <link rel="stylesheet" href="/frontend/CSS/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="img">
+                <img src="/frontend/Assets/community.jpg" alt="">
+            </div>
+            <div class="details">
+                <fieldset class="inputField">
+                    <legend>Name</legend>
+                    <input type="text" id="name" required>
+                </fieldset>
+                <fieldset class="inputField">
+                    <legend>Username</legend>
+                    <input type="text" id="username" required>
+                </fieldset>
+                <fieldset class="inputField">
+                    <legend>Branch</legend>
+                    <select id="branch">
+                        <option value="" disabled selected>Select Branch</option>
+                        <option value="CSE">Computer Science Engineering</option>
+                        <option value="CSM">Computer Science Engineering (AIML)</option>
+                        <option value="ECE">Electronics and Communication Engineering</option>
+                        <option value="CS">Cyber Security</option>
+                        <option value="IT">Information Technology</option>
+                    </select>
+                </fieldset>
+                <fieldset class="inputField">
+                    <legend>Year</legend>
+                    <select id="year">
+                        <option value="" disabled selected>Select Year</option>
+                        <option value="1">1st Year</option>
+                        <option value="2">2nd Year</option>
+                        <option value="3">3rd Year</option>
+                        <option value="4">4th Year</option>
+                    </select>
+                </fieldset>
+                <fieldset class="inputField">
+                    <legend>Section</legend>
+                    <select id="section">
+                        <option value="" disabled selected>Select Section</option>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                        <option value="E">E</option>
+                        <option value="F">F</option>
+                    </select>
+                </fieldset>
+
+                <fieldset class="inputField">
+                    <legend>Roll No</legend>
+                    <input type="text" id="rollno" required>
+                </fieldset>
+                <fieldset class="inputField">
+                    <legend>Linked In </legend>
+                    <input type="url" id="linkedin" required>
+                </fieldset>
+                <fieldset class="inputField2">
+                    <legend>Gender</legend>
+
+                    <div class="genderOptions">
+                        <label>
+                            <input type="radio" name="gender" value="Male" required>
+                            Male
+                        </label>
+
+                        <label>
+                            <input type="radio" name="gender" value="Female">
+                            Female
+                        </label>
+
+                        <label>
+                            <input type="radio" name="gender" value="Prefer not to say">
+                            Prefer not to say
+                        </label>
+                    </div>
+                </fieldset>
+                <button id="submitBtn" type="button">SUBMIT</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="/frontend/JS/userRegister.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,557 @@
+{
+  "MongoDB_Practice_Test": [
+    {
+      "id": 1,
+      "question": "What is a database?",
+      "options": [
+        "A collection of programs",
+        "An organized collection of data",
+        "A type of programming language",
+        "A hardware device"
+      ],
+      "answer": "An organized collection of data"
+    },
+    {
+      "id": 2,
+      "question": "What does DBMS stand for?",
+      "options": [
+        "Database Management System",
+        "Data Backup Management System",
+        "Database Machine System",
+        "Data Basic Management System"
+      ],
+      "answer": "Database Management System"
+    },
+    {
+      "id": 3,
+      "question": "MongoDB is which type of database?",
+      "options": [
+        "Relational database",
+        "NoSQL database",
+        "Graph database",
+        "Spreadsheet database"
+      ],
+      "answer": "NoSQL database"
+    },
+    {
+      "id": 4,
+      "question": "MongoDB stores data in which format?",
+      "options": [
+        "XML",
+        "CSV",
+        "BSON",
+        "HTML"
+      ],
+      "answer": "BSON"
+    },
+    {
+      "id": 5,
+      "question": "What is a document in MongoDB?",
+      "options": [
+        "A table",
+        "A row",
+        "A JSON-like data record",
+        "A server"
+      ],
+      "answer": "A JSON-like data record"
+    },
+    {
+      "id": 6,
+      "question": "What is a collection in MongoDB?",
+      "options": [
+        "A group of tables",
+        "A group of documents",
+        "A group of databases",
+        "A group of servers"
+      ],
+      "answer": "A group of documents"
+    },
+    {
+      "id": 7,
+      "question": "Which command inserts one document?",
+      "options": [
+        "insertOne()",
+        "addOne()",
+        "createOne()",
+        "putOne()"
+      ],
+      "answer": "insertOne()"
+    },
+    {
+      "id": 8,
+      "question": "Which command retrieves documents?",
+      "options": [
+        "get()",
+        "select()",
+        "find()",
+        "search()"
+      ],
+      "answer": "find()"
+    },
+    {
+      "id": 9,
+      "question": "Which command updates a document?",
+      "options": [
+        "updateOne()",
+        "changeOne()",
+        "modifyOne()",
+        "editOne()"
+      ],
+      "answer": "updateOne()"
+    },
+    {
+      "id": 10,
+      "question": "Which command deletes a document?",
+      "options": [
+        "removeOne()",
+        "deleteOne()",
+        "dropOne()",
+        "eraseOne()"
+      ],
+      "answer": "deleteOne()"
+    },
+    {
+      "id": 11,
+      "question": "CRUD stands for?",
+      "options": [
+        "Create Read Update Delete",
+        "Create Remove Update Delete",
+        "Control Read Update Delete",
+        "Create Read Upload Download"
+      ],
+      "answer": "Create Read Update Delete"
+    },
+    {
+      "id": 12,
+      "question": "Which operator means greater than?",
+      "options": [
+        "$lt",
+        "$gt",
+        "$eq",
+        "$and"
+      ],
+      "answer": "$gt"
+    },
+    {
+      "id": 13,
+      "question": "Which operator means less than?",
+      "options": [
+        "$lt",
+        "$gt",
+        "$or",
+        "$ne"
+      ],
+      "answer": "$lt"
+    },
+    {
+      "id": 14,
+      "question": "Which operator combines conditions?",
+      "options": [
+        "$or",
+        "$and",
+        "$gt",
+        "$lt"
+      ],
+      "answer": "$and"
+    },
+    {
+      "id": 15,
+      "question": "Which operator checks at least one condition?",
+      "options": [
+        "$and",
+        "$gt",
+        "$or",
+        "$eq"
+      ],
+      "answer": "$or"
+    },
+    {
+      "id": 16,
+      "question": "Which method sorts results?",
+      "options": [
+        "order()",
+        "sort()",
+        "arrange()",
+        "filter()"
+      ],
+      "answer": "sort()"
+    },
+    {
+      "id": 17,
+      "question": "Which method limits results?",
+      "options": [
+        "limit()",
+        "max()",
+        "restrict()",
+        "range()"
+      ],
+      "answer": "limit()"
+    },
+    {
+      "id": 18,
+      "question": "What is projection?",
+      "options": [
+        "Selecting specific fields",
+        "Deleting records",
+        "Sorting records",
+        "Updating records"
+      ],
+      "answer": "Selecting specific fields"
+    },
+    {
+      "id": 19,
+      "question": "What is an index?",
+      "options": [
+        "A document",
+        "A table",
+        "A structure that improves query speed",
+        "A database connection"
+      ],
+      "answer": "A structure that improves query speed"
+    },
+    {
+      "id": 20,
+      "question": "Why are indexes used?",
+      "options": [
+        "To slow queries",
+        "To store images",
+        "To improve search performance",
+        "To delete data"
+      ],
+      "answer": "To improve search performance"
+    },
+
+    {
+      "id": 21,
+      "question": "What is a unique index?",
+      "options": [
+        "Allows duplicates",
+        "Prevents duplicate values",
+        "Deletes records",
+        "Sorts records"
+      ],
+      "answer": "Prevents duplicate values"
+    },
+    {
+      "id": 22,
+      "question": "What is a compound index?",
+      "options": [
+        "Index on multiple fields",
+        "Index on one field",
+        "Index on images",
+        "Index on tables"
+      ],
+      "answer": "Index on multiple fields"
+    },
+    {
+      "id": 23,
+      "question": "What is MongoDB Atlas?",
+      "options": [
+        "Local database",
+        "Cloud database service",
+        "Programming language",
+        "Database tool"
+      ],
+      "answer": "Cloud database service"
+    },
+    {
+      "id": 24,
+      "question": "Which command shows databases?",
+      "options": [
+        "show dbs",
+        "show tables",
+        "show collections",
+        "show data"
+      ],
+      "answer": "show dbs"
+    },
+    {
+      "id": 25,
+      "question": "Which command selects a database?",
+      "options": [
+        "select db",
+        "choose db",
+        "use database",
+        "open db"
+      ],
+      "answer": "use database"
+    },
+    {
+      "id": 26,
+      "question": "Which command shows collections?",
+      "options": [
+        "show tables",
+        "show collections",
+        "show docs",
+        "show list"
+      ],
+      "answer": "show collections"
+    },
+    {
+      "id": 27,
+      "question": "Which method inserts multiple documents?",
+      "options": [
+        "insertMany()",
+        "insertGroup()",
+        "insertBulk()",
+        "insertAll()"
+      ],
+      "answer": "insertMany()"
+    },
+    {
+      "id": 28,
+      "question": "Which method updates multiple documents?",
+      "options": [
+        "updateMany()",
+        "updateAll()",
+        "updateGroup()",
+        "updateBulk()"
+      ],
+      "answer": "updateMany()"
+    },
+    {
+      "id": 29,
+      "question": "Which method deletes multiple documents?",
+      "options": [
+        "deleteMany()",
+        "deleteGroup()",
+        "deleteAll()",
+        "removeMany()"
+      ],
+      "answer": "deleteMany()"
+    },
+    {
+      "id": 30,
+      "question": "Which operator checks equality?",
+      "options": [
+        "$eq",
+        "$gt",
+        "$lt",
+        "$or"
+      ],
+      "answer": "$eq"
+    },
+
+    {
+      "id": 31,
+      "question": "Which operator checks not equal?",
+      "options": [
+        "$ne",
+        "$gt",
+        "$lt",
+        "$eq"
+      ],
+      "answer": "$ne"
+    },
+    {
+      "id": 32,
+      "question": "What does $in operator do?",
+      "options": [
+        "Matches values in array",
+        "Deletes values",
+        "Sorts values",
+        "Updates values"
+      ],
+      "answer": "Matches values in array"
+    },
+    {
+      "id": 33,
+      "question": "Which field is automatically created?",
+      "options": [
+        "_id",
+        "id",
+        "key",
+        "index"
+      ],
+      "answer": "_id"
+    },
+    {
+      "id": 34,
+      "question": "MongoDB belongs to which category?",
+      "options": [
+        "NoSQL database",
+        "Relational database",
+        "Graph database",
+        "Object database"
+      ],
+      "answer": "NoSQL database"
+    },
+    {
+      "id": 35,
+      "question": "Which language works best with MongoDB?",
+      "options": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "C"
+      ],
+      "answer": "JavaScript"
+    },
+    {
+      "id": 36,
+      "question": "What does BSON stand for?",
+      "options": [
+        "Binary JSON",
+        "Basic JSON",
+        "Binary JavaScript",
+        "Basic Syntax Object Notation"
+      ],
+      "answer": "Binary JSON"
+    },
+    {
+      "id": 37,
+      "question": "Which database type is MongoDB?",
+      "options": [
+        "Document database",
+        "Graph database",
+        "Relational database",
+        "Column database"
+      ],
+      "answer": "Document database"
+    },
+    {
+      "id": 38,
+      "question": "Which framework commonly uses MongoDB?",
+      "options": [
+        "MERN stack",
+        "LAMP stack",
+        "MEAN stack",
+        "Both MERN and MEAN"
+      ],
+      "answer": "Both MERN and MEAN"
+    },
+    {
+      "id": 39,
+      "question": "Which company developed MongoDB?",
+      "options": [
+        "MongoDB Inc.",
+        "Google",
+        "Microsoft",
+        "Oracle"
+      ],
+      "answer": "MongoDB Inc."
+    },
+    {
+      "id": 40,
+      "question": "Which command drops a collection?",
+      "options": [
+        "drop()",
+        "remove()",
+        "delete()",
+        "clear()"
+      ],
+      "answer": "drop()"
+    },
+
+    {
+      "id": 41,
+      "question": "Which command drops a database?",
+      "options": [
+        "dropDatabase()",
+        "deleteDatabase()",
+        "removeDatabase()",
+        "clearDatabase()"
+      ],
+      "answer": "dropDatabase()"
+    },
+    {
+      "id": 42,
+      "question": "Which operator checks if field exists?",
+      "options": [
+        "$exists",
+        "$check",
+        "$field",
+        "$verify"
+      ],
+      "answer": "$exists"
+    },
+    {
+      "id": 43,
+      "question": "Which operator matches regex?",
+      "options": [
+        "$regex",
+        "$pattern",
+        "$match",
+        "$find"
+      ],
+      "answer": "$regex"
+    },
+    {
+      "id": 44,
+      "question": "Which operator is used for text search?",
+      "options": [
+        "$text",
+        "$search",
+        "$find",
+        "$query"
+      ],
+      "answer": "$text"
+    },
+    {
+      "id": 45,
+      "question": "Which stage is used in aggregation?",
+      "options": [
+        "$match",
+        "$join",
+        "$connect",
+        "$select"
+      ],
+      "answer": "$match"
+    },
+    {
+      "id": 46,
+      "question": "Which stage groups data?",
+      "options": [
+        "$group",
+        "$collect",
+        "$sort",
+        "$limit"
+      ],
+      "answer": "$group"
+    },
+    {
+      "id": 47,
+      "question": "Which stage sorts aggregation results?",
+      "options": [
+        "$sort",
+        "$order",
+        "$arrange",
+        "$rank"
+      ],
+      "answer": "$sort"
+    },
+    {
+      "id": 48,
+      "question": "Which stage limits aggregation results?",
+      "options": [
+        "$limit",
+        "$restrict",
+        "$range",
+        "$top"
+      ],
+      "answer": "$limit"
+    },
+    {
+      "id": 49,
+      "question": "Which stage skips documents?",
+      "options": [
+        "$skip",
+        "$ignore",
+        "$pass",
+        "$jump"
+      ],
+      "answer": "$skip"
+    },
+    {
+      "id": 50,
+      "question": "MongoDB is mainly used for?",
+      "options": [
+        "Web applications",
+        "Mobile applications",
+        "Big data",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    }
+  ]
+}

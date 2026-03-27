@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Urbanist;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CONTAINER */
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #fafeff, #e6f3fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MAIN CARD */
+.content {
+    width: 60%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 15px #e6f3fc;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* LEFT IMAGE */
+.img {
+    width: 50%;
+    height: 500px;
+    padding: 20px;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* RIGHT FORM */
+.details {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+/* PROFILE IMAGE */
+.profileImg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.details label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.profileImg img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    object-fit: cover;
+}
+
+.profileImg span {
+    background-color: #77c1f6;
+    padding: 8px 12px;
+    border-radius: 4px;
+    color: white;
+    font-size: 12px;
+    box-shadow: 1px 1px 15px #e6f3fc;
+}
+
+/* INPUT FIELDSET */
+.inputField {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+}
+
+.inputField legend {
+    margin-left: 15px;
+    font-size: 13px;
+}
+
+.inputField input,
+.inputField select {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-family: Urbanist;
+}
+
+/* SELECT FIX */
+.inputField select {
+    margin-top: 6px;
+    font-weight: 500;
+}
+
+.inputField2 {
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+.inputField2 legend {
+    margin-left: 15px;
+    font-size: 13px;
+}
+
+.inputField2 input,
+.inputField2 select {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-family: Urbanist;
+}
+
+/* SELECT FIX */
+.inputField2 select {
+    margin-top: 6px;
+    font-weight: 500;
+}
+/* SUBMIT BUTTON */
+#submitBtn {
+    width: 100%;
+    height: 40px;
+    background-color: #77c1f6;
+    font-family: Urbanist;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #77c1f6;
+    box-shadow: 1px 1px 15px #e6f3fc;
+    color: white;
+    transition: 0.3s;
+}
+
+#submitBtn:hover {
+    background-color: #5aaae6;
+    color: white;
+}
+.genderOptions {
+    display: flex;
+    gap: 20px;
+    padding: 5px 0;
+}
+
+.genderOptions label {
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.genderOptions input {
+    margin-right: 5px;
+}
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 1024px) {
+    .content {
+        width: 85%;
+        padding: 30px;
+    }
+
+    .img {
+        height: 420px;
+        padding: 10px;
+    }
+
+    .details {
+        padding: 10px;
+        gap: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    html,
+    body {
+        height: auto;
+    }
+
+    .content {
+        width: 95%;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .img {
+        width: 100%;
+        height: 220px;
+        padding: 0;
+    }
+
+    .details {
+        width: 100%;
+    }
+
+    .profileImg img {
+        width: 90px;
+        height: 90px;
+    }
+
+    #submitBtn {
+        height: 42px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .content {
+        width: 100%;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .img {
+        height: 180px;
+    }
+
+    .inputField legend {
+        font-size: 12px;
+    }
+
+    .inputField input,
+    .inputField select {
+        font-size: 13px;
+    }
+}
